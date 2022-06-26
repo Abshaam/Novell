@@ -1,0 +1,95 @@
+ .todo_form {
+     border-radius: 8px;
+     padding: 16px;
+     text-align: center;
+     box-shadow: 0 4px 8px grey;
+     margin: 1.5rem 10rem;
+ }
+
+ .todo_input {
+     font-style: 16px;
+     padding: 8px;
+     border: none;
+     border-radius: 8px;
+     border-bottom: 2px solid rosybrown;
+     outline: none;
+     min-width: 50%;
+ }
+
+ .todo_button {
+     cursor: pointer;
+     border: none;
+     border-radius: 8px;
+     margin-left: 8px;
+     padding: 8px;
+     background-color: aqua;
+ }
+
+ .wrap {
+    margin: 1rem;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     /* grid-template-rows: repeat(5, 1fr); */
+     grid-column-gap: 15px;
+     grid-row-gap: 10px;
+ }
+
+ .load{
+    text-align: center;
+    margin: 1rem;
+ }
+
+ .addNovel{
+  background-color: chocolate;
+ }
+
+
+
+ /* If the screen size is 600px wide or less, hide the element */
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    div.wrap {
+      display: block;
+      margin: 0rem;
+    }
+   
+  }
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+  /* @media only screen and (min-width: 600px) {
+    div.wrap {
+      display: block;
+    }
+  } */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+    div.wrap {
+      display: block;
+    }
+  } */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .wrap{
+        display: grid;
+        /* grid-template-columns: repeat(2, 1fr); */
+       
+    }
+   
+   
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+    div.wrap {
+        display: block;
+      }
+} */
+
+
+
+
+  
